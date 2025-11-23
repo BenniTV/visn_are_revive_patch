@@ -1,3 +1,19 @@
+# visn_Are Sync Fix
+
+**Client-Side Fix für FiveM ESX + ox_inventory + visn_Are**
+
+## Problem
+Nach Tod und Wiederbelebung können Spieler ihr Inventar öffnen, aber keine Waffen oder Items ausrüsten/konsumieren, weil der Dead-Status nicht korrekt synchronisiert wird.
+
+## Lösung
+Dieses Script synchronisiert den `isDead`-Status von visn_Are event-basiert mit ESX und ox_inventory.
+
+### Features
+✅ **Event-basiert** - Kein Performance-Impact durch Polling  
+✅ **Automatische Synchronisation** bei Statusänderungen  
+✅ **Kompakt** - Nur ~20 Zeilen Code  
+✅ **Plug & Play** - Keine Änderungen an bestehenden Scripten nötig
+
 ## Installation
 
 1. **Resource in server.cfg einfügen:**
